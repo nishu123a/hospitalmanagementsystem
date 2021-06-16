@@ -1,0 +1,92 @@
+
+.first:hover{
+  text-align: center;
+}header{
+  animation: bouncing 0.5s ease 0s infinite alternate both;
+  background:  linear-gradient(to bottom, #33ccff 10%, #9933ff 100%);
+  border-radius: 50%;
+  display:inline-block;
+  color:blue;
+  font-family: 'Reggae One', cursive;
+  cursor: pointer;
+  font-size:0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  padding: 1em 2em 1.1em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: bottom;
+  margin-top: 100px;
+}
+@keyframes bouncing{
+ 0%{
+      bottom: 0;
+      box-shadow:0 0 5px greenyellow ;
+  }
+  100%{
+      bottom: 50px;
+      box-shadow:0 50px 50px hotpink;
+  }
+}
+header:hover{
+
+  color:blanchedalmond;
+}
+nav a{
+display:grid;
+margin: none;
+color:white;
+text-decoration: none;
+padding: 14px 30px;
+float :left;
+font-size: xx-large;
+
+}
+nav{
+  background-color: #00004d;
+  overflow: hidden;
+  border: 2px solid blue;
+}
+nav a:hover{
+  background-color: blanchedalmond;
+  color: blue;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.banner{
+  position: relative;width:100%;
+  margin: 0 auto;
+}
+.banner img{
+  width:100%;
+}
+.heading{
+ font-size:xx-large;color: #0e11be;position:absolute; top:10%;font-family: Arial, Helvetica, sans-serif;
+ width: 100%;text-align: left;text-shadow:5px 5px 10px rgb(32, 22, 22);
+}
+section{
+  font-size: 10px;
+}p{
+  font-size:xx-large;color:  firebrick;position: absolute; top:60%;font-family: Arial, Helvetica, sans-serif;
+  width: 100%;text-align: center;text-shadow:5px 5px 10px,hsl(239, 63%, 50%);
+ }
+ .first{
+   background: linear-gradient(135deg,#4d4dff, #00004d);
+
+   border: darkblue solid 2px;
+ }
+ .home{
+   background-color: wheat;
+   color:blue;
+ }
+ .heading:hover{
+   font-size: 56px;
+   color:#1a1aff;
+   text-shadow: cornflowerblue;
+   
+ }
+ 
+
